@@ -72,3 +72,7 @@
 .col h2{
     margin-right: 20px;
 }
+.change:hover {
+    color: red;
+    font-size: 110%;
+}
