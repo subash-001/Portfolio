@@ -1,0 +1,92 @@
+.intro {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #161616;
+  font-family: "Poppins", sans-serif; 
+  overflow: hidden; /* Prevents scrolling while curtains are moving */
+}
+
+.curtain {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #161616;
+  z-index: 2;
+  transition: transform 3s ease-in-out; /* Slower transition */
+}
+.head-curtain{
+  font-size: 50px;
+  font-family:cursive ;
+
+}
+
+.curtain-left {
+  left: 0;
+  transform: translateX(0);
+}
+
+.curtain-right {
+  right: 0;
+  transform: translateX(0);
+}
+
+.intro.active .curtain-left {
+  transform: translateX(-100%);
+}
+
+.intro.active .curtain-right {
+  transform: translateX(100%);
+}
+
+.logo-header {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  z-index: 3; /* Make sure the logo is above the curtains */
+  opacity: 0;
+  transition: opacity 3s ease-in-out; /* Match transition duration */
+}
+
+.intro.active .logo-header {
+  opacity: 1;
+}
+
+.main-content {
+  display: none;
+  opacity: 0;
+  transition: opacity 3s ease-in-out; /* Match transition duration */
+}
+
+.main-content.show {
+  display: block;
+  opacity: 1;
+}
+/* Initial styles for the intro curtain */
+.intro {
+  transition: opacity 1s ease-out;
+  opacity: 1;
+}
+
+/* Fade out effect */
+.intro.fade-out {
+  opacity: 0;
+}
+
+/* Styling for the main content, hidden initially */
+.main-content {
+  display: none;
+  transition: opacity 1s ease-in;
+}
+
+.main-content.show {
+  display: block;
+  opacity: 1;
+}
+

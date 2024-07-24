@@ -1,0 +1,74 @@
+/* .image near text {
+    display: flex;
+    align-items: center; 
+} */
+ .bgcolor{
+    background-color:aliceblue;
+ }
+
+.subash-img{
+    
+    width: 500px;
+  height: 600px;
+  border-radius: 1%;
+  object-fit: cover;
+  background-color: darkgray;
+   
+}
+.text {
+    display: inline-block;
+    vertical-align: top; 
+    display: flex;
+    margin: 25px;
+    margin-top: 30px;
+    font-size: 50px;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+}
+.text {
+    animation: fadeOut 2s forwards; /* Apply the fadeOut animation for 2 seconds */
+}
+@keyframes text {
+    0% {
+        opacity: 1; /* Start with full opacity */
+    }
+    100% {
+        opacity: 0; /* End with no opacity */
+    }
+}
+
+
+
+.header {
+    /* From https://css.glass */
+    /* box-shadow: 0 4px 40px rgba(84, 75, 75, 0.756);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 0.5px solid rgba(118, 103, 103, 0.04); */
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+}
+
+.h-top {
+    font-family: cursive;
+    margin-left: 50px;
+}
+
+.no-underline {
+    text-decoration: none;
+    margin-right: 15px;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: lighter;
+    color: black;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+.col h2{
+    margin-right: 20px;
+}
