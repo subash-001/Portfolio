@@ -30,4 +30,4 @@ window.onload = function() {
     });
   };
 
-//   for type animation
+//   nav bar

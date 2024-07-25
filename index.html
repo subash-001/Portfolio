@@ -16,63 +16,66 @@
             </div>
         </div>
     </div>
-    
-    <div class="header">
-        <div class="col">
+    <nav>
+        <div class="logo1">
             
         </div>
-        <div class="col h2">
-            <nav class="navbar navbar-expand-lg justify-content-end">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link no-underline">
-                            <span class="change">HOME</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="About.html" class="nav-link no-underline">
-                            <span class="change">ABOUT</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="Project.html" class="nav-link no-underline">
-                            <span class="change">PROJECTS</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="Contact.html" class="nav-link no-underline">
-                            <span class="change">CONTACT</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+        <div class="logo1">
+            
         </div>
-    </div>
+        <div class="logo1">
+            
+        </div>
+        <ul >
+            <li><a href="index.html"> HOME</a></li>
+            <li><a href="Home.html"> ABOUT</a></li>
+            <li><a href="Home.html"> PROJECTS</a></li>
+            <li><a href="Home.html"> CONTACT</a></li>
+        </ul> 
+        
+        <div class="menu">
+            <div class="formargin">
+            
+            </div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+   
+    
     <br/><br/>
 
     <div class="content-container">
         <img class="subash-img" src="image/subash img.jpg" alt="Subash Image">
         <div class="container">
-            <h1 span class="content-head"> &nbsp; Hello! I'm <b class="letter-space">SUBASH</b></h1>
-            <p style=" font-size: 30px;">&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: 1.5;">Welcome to my portfolio. I'm an Engineering Student, a passionate developer with a hunger to learn technology . Feel free to explore my projects and get in touch!</span>
+            <h1 span class="content-head"> &nbsp; Hello! I'm <span class="letter-space"> SUBASH</b></h1>
+                <div class="para-style">
+            <p >&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: 1.5;">Welcome to my portfolio. I'm an Engineering Student, a passionate developer with a hunger to learn technology . Feel free to explore my projects and get in touch!</span>
             </p>
-           <center><p style=" font-size: 30px;">Wanna know more about me ?</p></center> <br/>
+           <center><p >Wanna know more about me ?</p></center> <br/>
            <center>
-            <a href= "resume/Subash resume.pdf" target="_blank" style="text-decoration: none; "><button class="button-49" role="button">Download CV</button></a>
-
+            <a href= "resume/Subash resume.pdf" target="_blank" style="text-decoration: none; "><button class="button-49" role="button"> My CV</button></a>
+                
            </center>
-           
+        </div>
         </div>
     </div>
 
+    </body>
     <script src="scroll.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+
+<script>
+const menu = document.querySelector('.menu')
+const menuList = document.querySelector('nav ul')
+menu.addEventListener('click',()=>{
+    menuList.classList.toggle('showmenu')
+})
+</script>
+ 
 </html>
 
 
 
-
-<!-- HTML !-->
-<!-- <button class="button-49" role="button">Button 49</button> -->
 

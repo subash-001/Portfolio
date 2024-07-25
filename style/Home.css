@@ -1,6 +1,6 @@
 
 .bgcolor{
-    background-color:rgb(229, 244, 255);
+    background-color:rgb(183, 183, 183);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
 
@@ -13,6 +13,9 @@
   background-color: darkgray;
    
 } */
+
+
+
 .text {
     display: inline-block;
     vertical-align: top; 
@@ -37,12 +40,8 @@
 
 
 
-header {
-    /* From https://css.glass */
-    /* box-shadow: 0 4px 40px rgba(84, 75, 75, 0.756);
-    ba.ckdrop-filter: blur(4.9px);
-    -webkit-backdrop-filter: blur(4.9px);
-    border: 0.5px solid rgba(118, 103, 103, 0.04); */
+/* .header {
+    
     padding-top: 20px;
     padding-bottom: 10px;
     padding-right: 100px;
@@ -80,18 +79,97 @@ header {
 }
 .change:hover {
     color: CORAL;
-    /* font-weight: bold; */
-    /* font-size:30px; */
-    /* font-family: fantasy; */
+   
     
     background: rgb(2,0,36);
-   /* background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 75%); */
+  
 }
 .name{
     
     color:#FF7F50;
     font-weight: bold;
 }
+*/
+/* nav bar */
+nav{
+    font-size: 28px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 20px;
+    
+
+}
+nav li{
+    display: inline-block;
+    margin:0 8px;
+    margin-top: 30px;
+   
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: coral;
+    background: rgb(2,0,36);
+    
+  
+}
+.formargin{
+    margin-top: 28px;
+}
+.menu-line{
+    height:7px;
+    width:30px;
+    background-color: black;
+    margin-bottom: 3px;
+    align-items: center;
+   
+
+}
+
+.menu{
+    cursor: pointer;
+    display: none;
+}
+@media all and (max-width : 655px){
+    nav{
+        flex-direction:column ;
+    }
+    nav li{
+        display: block;
+        padding: 10px 0;
+    }
+    ul{
+        text-align: center;
+        padding: 0;
+        display: none;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 0px;
+    }
+    .showmenu{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Flexbox container for image and text */
 .content-container {
@@ -101,7 +179,12 @@ header {
     gap: 20px;
     padding: 20px;
     flex-wrap: wrap; /* Ensure wrapping on smaller screens */
-}
+    
+} 
+
+
+
+
 
 /* Image styling */
 .subash-img {
@@ -283,9 +366,18 @@ header {
  .content-head{
     font-size: 60px;
     font-family:fantasy;
+    
  }
  .letter-space{
     letter-spacing: 3px;
+    color: brown;
+    
+ }
+ .para-style{
+    font-size: 35px;
+    font-family: cursive;
+   
+
  }
 
 
@@ -293,7 +385,7 @@ header {
 .button-49,
 .button-49:after {
   width: 150px;
-  height: 76px;
+  height: 86px;
   line-height: 78px;
   font-size: 20px;
   font-family: 'Bebas Neue', sans-serif;
