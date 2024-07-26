@@ -22,15 +22,7 @@ html {
   animation-range: entry 0% cover;
 }
 
-/* .subash-img{
-    
-    width: 500px;
-  height: 600px;
-  border-radius: 1%;
-  object-fit: cover;
-  background-color: darkgray;
-   
-} */
+
 
 
 
@@ -58,56 +50,7 @@ html {
 
 
 
-/* .header {
-    
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-right: 100px;
-   
-}
 
-
-.h-top {
-    font-family: cursive;
-    margin-left: 50px;
-}
-
-.no-underline {
-    text-decoration: none;
-    margin-right: 15px;
-    font-family: cursive;
-    font-size: 25px;
-    font-weight: lighter;
-    color: black;
-}
-
-.navbar-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
-}
-.col h2{
-    margin-right: 20px;
-}
-.change{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: black;
-    font-weight: bold;
-}
-.change:hover {
-    color: CORAL;
-   
-    
-    background: rgb(2,0,36);
-  
-}
-.name{
-    
-    color:#FF7F50;
-    font-weight: bold;
-}
-*/
 /* nav bar */
 nav{
     font-size: 28px;
@@ -118,6 +61,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     padding-right: 20px;
+   
     
 
 }
