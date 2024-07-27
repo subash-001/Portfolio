@@ -21,8 +21,15 @@ html {
   animation-timeline:view() ;
   animation-range: entry 0% cover;
 }
+/* .content-container{
+  page-break-after: always;
 
-
+} */
+/* @media print {
+  .content-container {
+      page-break-after: always;
+  }
+} */
 
 
 

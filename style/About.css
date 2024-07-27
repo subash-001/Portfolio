@@ -1,22 +1,66 @@
 
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
+
+/* 
+h2{
+  position: relative;
+  font-size: 20vw;
+  line-height: 1.2;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #252839;
+  -webkit-text-stroke: 0.3vw #383d52;
+  text-transform: uppercase;
+  
+}
+h2::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #01fe87;
+  -webkit-text-stroke: 0vw #383d52;
+  border-right: 2px solid #01fe87;
+  overflow: hidden;
+  animation: animate 6s linear  infinite;
+
+}
+@keyframes animate{
+  0%,10%,100%
+  {
+    width: 0;
+  }
+  70%,90%
+  {
+    width: 100%;
+  }
+}
+ */
+
+
+
+
 /* body{
   padding: 40px;
   background-color: #121212;  
 } */
-
+ 
 .about-head {
   border-right: solid 3px rgba(0, 0, 0, 0.75);
   white-space: nowrap;
   overflow: hidden;    
   font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 60px;
-  color: rgba(0, 0, 0, 0.7);
+  color: black;
   margin: 0 auto;
   text-align: center;
   font-weight: bolder;
 }
+
 
 /* Animation */
 .about-head {
@@ -36,6 +80,9 @@
 @keyframes animated-cursor{
   from{border-right-color: rgba(2, 2, 2, 0.75);}
   to{border-right-color: transparent;}
+}
+.about-head:hover{
+  color:lightcoral;
 }
 /* acdemics */
 .academic{
